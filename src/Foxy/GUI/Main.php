@@ -34,7 +34,7 @@ class Main extends PluginBase implements Listener{
           }
 
           public function gui($sender){
-              $menu = InvMenu::create(TYPE_CHEST);
+              $menu = InvMenu::create(InvMenu::TYPE_CHEST);
               $menu->readonly();
               $menu->setListener([$this, "guilistener"]);
               $inv = $menu->getInventory();
