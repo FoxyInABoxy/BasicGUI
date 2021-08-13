@@ -1,2 +1,2 @@
 # BasicGUI
-The soruce code for https://youtu.be/11c-7R-pi20
+The source code for https://youtu.be/11c-7R-pi20
