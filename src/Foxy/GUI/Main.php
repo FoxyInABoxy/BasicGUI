@@ -21,7 +21,7 @@ class Main extends PluginBase implements Listener{
            }  
           }
 
-          public function onCommand(CommandSender $sender, Command $cmd, String $label, Array $args){
+          public function onCommand(CommandSender $sender, Command $cmd, String $label, Array $args) : bool{
               switch($cmd->getName()){
                   case "gui":
                   if($sender instanceof Player){
